@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useReducer, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useReducer, useMemo, useRef, useCallback } from 'react';
+import Search from '@components/Search';
 
 const initialState = {
     favorites:[]
@@ -22,9 +23,12 @@ const Characters = () => {
     const [favorites,dispatch] = useReducer(favoriteReducer,initialState)
     const searchInput = useRef(null)
 
-    const handleSearch = () => {
+    // const handleSearch = () => {
+    //     setSearch(searchInput.current.value)
+    // }
+    const handleSearch = useCallback(() => {
         setSearch(searchInput.current.value)
-    }
+    },[])
 
     useEffect(()=>{
         fetch('https://rickandmortyapi.com/api/character/').then(res=>res.json()).then(res=>{
@@ -52,9 +56,7 @@ const Characters = () => {
           <li key={fav.id}>{fav.name}</li>
         ))}
 
-        <div className='search'>
-          <input type='text' value={search} onChange={handleSearch} ref={searchInput} />
-        </div>
+        <Search search={search} searchInput={searchInput} handleSearch={handleSearch}/>
 
         {filteredUsers.map((character) => (
           <div className='item' key={character.id}>
