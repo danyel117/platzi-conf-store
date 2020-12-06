@@ -1,7 +1,7 @@
 import React from 'react';
 // import Head from 'next/head';
 import Header from '@components/Header'
-
+import Characters from '@components/Characters'
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
       <main>
         <Header/>
         <h1>hola Mundo</h1>
+        <Characters/>
       </main>
     </div>
   );
