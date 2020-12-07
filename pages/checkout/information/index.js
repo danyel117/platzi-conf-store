@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from 'components/Layout';
+import Link from 'next/link';
 import {
   InformationS,
   Input,
@@ -33,7 +34,9 @@ const Information = () => (
         </div>
         <InformationButtons>
           <div>Regresar</div>
-          <div>Pagar</div>
+          <Link href="/checkout/payment">
+            <div>Pagar</div>
+          </Link>
         </InformationButtons>
       </div>
       <InformationSidebar>

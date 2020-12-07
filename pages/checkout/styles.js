@@ -6,6 +6,11 @@ export const CheckoutS = styled.div`
   grid-row-gap: 1.5em;
   display: grid;
   padding: 0 0 4em 0;
+  .fas {
+    margin: 0 0 0 10px;
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
 `;
 
 export const CheckoutItem = styled.div`
