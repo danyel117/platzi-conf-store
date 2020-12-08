@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import {useAppContext} from 'context/AppContext'
-import { HeaderS, Checkout } from './styles';
+import { HeaderS, Checkout, HeaderAlert } from './styles';
 
 const Header = () => {
   const {state} = useAppContext()
@@ -16,9 +16,9 @@ const Header = () => {
           <i className="fas fa-shopping-basket" />
         </Link>
         {cart.length>0 && (
-        <div>
+        <HeaderAlert>
           {cart.length}
-        </div>
+        </HeaderAlert>
       )}
       </Checkout>
     </HeaderS>

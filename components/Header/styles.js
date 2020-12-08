@@ -25,3 +25,10 @@ export const Checkout = styled.div`
     color: #33b1ff;
   }
 `;
+
+
+export const HeaderAlert = styled.div`
+  color: #33b13a;
+  font-size: 14px;
+  margin-left: 5px;
+`; 
