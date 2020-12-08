@@ -21,7 +21,7 @@ export const InformationS = styled.div`
     padding: 6px 24px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #7cacde;
-    width: 100%;
+    width: 30%;
     display: block;
     outline: none;
   }
