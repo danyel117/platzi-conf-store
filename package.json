@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@react-google-maps/api": "^1.13.0",
+    "axios": "^0.21.0",
     "eslint-import-resolver-webpack": "^0.13.0",
     "eslint-plugin-import": "^2.22.1",
     "next": "10.0.3",

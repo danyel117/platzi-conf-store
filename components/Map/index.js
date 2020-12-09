@@ -5,13 +5,13 @@ import React from 'react';
 import {GoogleMap, LoadScript, Marker} from '@react-google-maps/api'
 import credentials from '.credentials.js'
 
-const Map = () => {
+const Map = ({location}) => {
     const MapStyles={
         height:"50vh",
         width:"100%"
     }
     const defaultCenter={
-        lat:6.17, lng:-75.56
+        lat:location.lat, lng:location.lng
     }
     return (
       <LoadScript googleMapsApiKey={credentials.maps}>
