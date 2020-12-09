@@ -3,7 +3,7 @@
 /* eslint-disable import/no-useless-path-segments */
 import { useState, useEffect } from 'react';
 import axios from 'axios'
-import credentials from '.credentials'
+import credentials from 'credentials'
 
 const useGoogleAddress = address=>{
     const [map,setMap] = useState({})

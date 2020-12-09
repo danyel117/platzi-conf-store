@@ -6,7 +6,7 @@ import {useAppContext} from 'context/AppContext';
 import { useRouter } from 'next/router';
 import Layout from '@components/Layout';
 import {PayPalButton} from 'react-paypal-button'
-import credentials from ".credentials.js";
+import credentials from "credentials.js";
 import { PaymentS, PaymentItem, PaymentElement } from './styles';
 
 const Payment = () => {

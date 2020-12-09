@@ -3,7 +3,7 @@
 /* eslint-disable import/no-useless-path-segments */
 import React from 'react';
 import {GoogleMap, LoadScript, Marker} from '@react-google-maps/api'
-import credentials from '.credentials.js'
+import credentials from 'credentials.js'
 
 const Map = ({location}) => {
     const MapStyles={
