@@ -4134,6 +4134,11 @@ react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-paypal-button@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/react-paypal-button/-/react-paypal-button-4.1.1.tgz#9ccee6f3c4f6ee1185a4b58760a89d4a3987fbed"
+  integrity sha512-7ZI9nXgdQHZLhsjNpSNGIgWdR7wuH3GXcRjBQzPvznQtC89MBDsQ+yFGuNDGG9WVmAQiGwMSI5pV+ilKM6M0Yg==
+
 react-refresh@0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"

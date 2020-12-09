@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const PaymentS = styled.div`
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr;
   grid-gap: 2rem;
   grid-row-gap: 1.5em;
   display: grid;
+  margin-bottom:10px;
 `;
 
 export const PaymentBack = styled.div`

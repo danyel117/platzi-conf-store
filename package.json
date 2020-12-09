@@ -15,6 +15,7 @@
     "next": "10.0.3",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-paypal-button": "^4.1.1",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
@@ -29,7 +30,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint || yarn fix"
+      "pre-commit1": "yarn lint || yarn fix"
     }
   }
 }
